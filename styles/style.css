@@ -134,6 +134,22 @@ main > section {
   margin-top: 0;
   margin-bottom: 0;
 }
+#x-badge{
+  padding: 45px 42px;
+  margin-left: -100px;
+  margin-top: -100px;
+}
+#x-year{
+  font-size: 4rem;
+  font-weight: 700;
+}
+#x-badge p{
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.feature-img img{
+  width: 100%;
+}
 
 
 
@@ -191,7 +207,8 @@ main > section {
 @media screen and (max-width: 576px) {
   .navbar,
   .nav-links,
-  .teams{
+  .teams,
+  .features {
     flex-direction: column;
   }
   .team-img-container,
@@ -206,6 +223,10 @@ main > section {
   .sponsor-companies {
     justify-items: center;
     gap: 30px;
+  }
+  #x-badge{
+    margin-top: 20px;
+    margin-left: 20px;
   }
 }
 
@@ -222,5 +243,9 @@ main > section {
     grid-template-columns: repeat(2, 1fr);
     gap: 50px;
     justify-items: center;
+  }
+  #x-badge{
+    margin-top: 20px;
+    margin-left: 20px;
   }
 }
